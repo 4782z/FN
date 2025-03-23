@@ -1,0 +1,99 @@
+/* Global Styling */
+body {
+  background-color: #0a0f1e; /* Dark Blue Background */
+  font-family: 'Orbitron', sans-serif; /* Digital font */
+  color: #ffffff; /* White text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #10172a; /* Deep Blue */
+  padding: 15px 20px;
+  box-shadow: 0 0 10px #0099ff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00ccff; /* Neon Blue */
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #00ccff;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff33cc; /* Pink Glow */
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #10172a;
+  box-shadow: 0 0 10px #0099ff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #00ccff;
+}
+
+/* Content Area */
+.content {
+  padding: 50px;
+  text-align: center;
+}
+
+/* Buttons */
+button {
+  background: #00ccff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #0a0f1e;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #0099ff;
+  box-shadow: 0 0 10px #00ccff;
+}
+
+/* Input Fields */
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px auto;
+  border: 2px solid #00ccff;
+  background: #0a0f1e;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* Tables (For Results Page) */
+.results-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+.results-table th, .results-table td {
+  border: 1px solid #00ccff;
+  padding: 10px;
+  text-align: center;
+}
+
+.fake { color: red; font-weight: bold; }
+.real { color: green; font-weight: bold; }
